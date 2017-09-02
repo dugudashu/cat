@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" tools:context="com.heihei.weekedproject.MainActivity">
+    <com.heihei.weekedproject.MyTitleFit
+        android:id="@+id/mytitlefit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="Hello World!" app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:title="这是Mainactivity"
+        app:titleSize="12sp"
+        app:titleColor="#000000"
+        app:bgcolor="#ff8800"
 
-</android.support.constraint.ConstraintLayout>
+        app:btnleftbgcolor="@drawable/selector"
+        app:btnleftSize="12sp"
+        app:btnlefttext="返回"
+        app:btnleftcolor="#ffffff"
+
+        app:btnrightbgcolor="@drawable/selector"
+        app:btnrightSize="12sp"
+        app:btnrighttext="更多"
+        app:btnrightcolor="#ffffff"
+        >
+    </com.heihei.weekedproject.MyTitleFit>
+
+</LinearLayout>

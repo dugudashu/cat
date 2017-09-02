@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTitleFit">
+        <attr name="title" format="string"></attr>
+        <attr name="titleSize" format="dimension"></attr>
+        <attr name="titleColor" format="color"></attr>
+        <attr name="bgcolor" format="color"></attr>
+
+
+        <attr name="btnlefttext" format="string"></attr>
+        <attr name="btnleftSize" format="dimension"></attr>
+        <attr name="btnleftcolor" format="color"></attr>
+        <attr name="btnleftbgcolor" format="reference"></attr>
+
+
+        <attr name="btnrighttext" format="string"></attr>
+        <attr name="btnrightSize" format="dimension"></attr>
+        <attr name="btnrightcolor" format="color"></attr>
+        <attr name="btnrightbgcolor" format="reference"></attr>
+
+
+    </declare-styleable>
+</resources>
