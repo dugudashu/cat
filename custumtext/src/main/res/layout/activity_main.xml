@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.heihei.com.custumtext.MainActivity">
+
+    <com.heihei.com.custumtext.MyTitle
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:textSize="16sp"
+        app:texttitle="MainActivity"
+        app:textColor="#0000ff"
+        app:icon="@mipmap/ic_launcher"
+        app:backg="@color/colorAccent"
+        >
+    </com.heihei.com.custumtext.MyTitle>
+
+
+
+
+</RelativeLayout>

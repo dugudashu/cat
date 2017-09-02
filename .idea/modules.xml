@@ -4,6 +4,17 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Thenextmonth.iml" filepath="$PROJECT_DIR$/Thenextmonth.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custumtext/custumtext.iml" filepath="$PROJECT_DIR$/custumtext/custumtext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycustumtext/mycustumtext.iml" filepath="$PROJECT_DIR$/mycustumtext/mycustumtext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycustumview/mycustumview.iml" filepath="$PROJECT_DIR$/mycustumview/mycustumview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycustumview0901/mycustumview0901.iml" filepath="$PROJECT_DIR$/mycustumview0901/mycustumview0901.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycustumview2/mycustumview2.iml" filepath="$PROJECT_DIR$/mycustumview2/mycustumview2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycustumview3/mycustumview3.iml" filepath="$PROJECT_DIR$/mycustumview3/mycustumview3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mypropertyanimation/mypropertyanimation.iml" filepath="$PROJECT_DIR$/mypropertyanimation/mypropertyanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myrecycler/myrecycler.iml" filepath="$PROJECT_DIR$/myrecycler/myrecycler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myrecycler2/myrecycler2.iml" filepath="$PROJECT_DIR$/myrecycler2/myrecycler2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/propertyanimation/propertyanimation.iml" filepath="$PROJECT_DIR$/propertyanimation/propertyanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weekedproject/weekedproject.iml" filepath="$PROJECT_DIR$/weekedproject/weekedproject.iml" />
     </modules>
   </component>
 </project>

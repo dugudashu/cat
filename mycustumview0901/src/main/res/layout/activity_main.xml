@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.heihei.com.mycustumview0901.MainActivity">
+
+    <com.heihei.com.mycustumview0901.MyTextv
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0000"
+        app:text="我也是醉了"
+        app:textColor="#ff0"
+        app:textSize="18sp"
+        android:id="@+id/myTextv">
+    </com.heihei.com.mycustumview0901.MyTextv>
+    <ImageView
+        android:id="@+id/img_jump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginStart="18dp"
+        android:layout_alignBottom="@+id/myTextv"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
+
+
+
+
+
+
+</RelativeLayout>

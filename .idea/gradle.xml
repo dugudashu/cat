@@ -9,6 +9,17 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/custumtext" />
+            <option value="$PROJECT_DIR$/mycustumtext" />
+            <option value="$PROJECT_DIR$/mycustumview" />
+            <option value="$PROJECT_DIR$/mycustumview0901" />
+            <option value="$PROJECT_DIR$/mycustumview2" />
+            <option value="$PROJECT_DIR$/mycustumview3" />
+            <option value="$PROJECT_DIR$/mypropertyanimation" />
+            <option value="$PROJECT_DIR$/myrecycler" />
+            <option value="$PROJECT_DIR$/myrecycler2" />
+            <option value="$PROJECT_DIR$/propertyanimation" />
+            <option value="$PROJECT_DIR$/weekedproject" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

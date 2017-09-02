@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.heihei.com.mycustumtext.MyTextviewa
+        android:id="@+id/my_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:text="这是secondActivity"
+        app:textColor="#00ffff"
+        app:textSize="8sp"
+        app:baColor="@color/colorPrimaryDark"
+        app:icon="@mipmap/ic_launcher_round"
+
+
+      />
+
+
+
+</RelativeLayout>
