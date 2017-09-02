@@ -136,7 +136,7 @@ public class MyTitleFit extends LinearLayout {
         btn_return.setTextColor(btnleftColor);
         btn_return.setBackground(btnleftbgcolor);
 
-
+//tuolaji
         btn_more.setText(btnrighttext);
         btn_more.setTextSize(btnrightSize);
         btn_more.setTextColor(btnrightColor);
