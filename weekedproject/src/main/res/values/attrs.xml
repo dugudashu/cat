@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="MyTitleFit">
+
+        <!--定义标题的属性-->
         <attr name="title" format="string"></attr>
         <attr name="titleSize" format="dimension"></attr>
         <attr name="titleColor" format="color"></attr>
         <attr name="bgcolor" format="color"></attr>
 
-
+        <!--定义左边按钮的属性-->
         <attr name="btnlefttext" format="string"></attr>
         <attr name="btnleftSize" format="dimension"></attr>
         <attr name="btnleftcolor" format="color"></attr>
         <attr name="btnleftbgcolor" format="reference"></attr>
 
-
+        <!--定义右边按钮的属性-->
         <attr name="btnrighttext" format="string"></attr>
         <attr name="btnrightSize" format="dimension"></attr>
         <attr name="btnrightcolor" format="color"></attr>
