@@ -8,7 +8,7 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity implements MyTextviewa.OnmIconClickListener {
 
     private MyTextviewa my_action_bar;
-
+//wozhenshi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
