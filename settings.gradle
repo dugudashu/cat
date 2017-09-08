@@ -1,1 +1,1 @@
-include ':app', ':mycustumview', ':mycustumview2', ':mycustumview3', ':myrecycler', ':myrecycler2', ':mycustumview0901', ':mycustumtext', ':custumtext', ':propertyanimation', ':mypropertyanimation', ':weekedproject'
+include ':app', ':mycustumview', ':mycustumview2', ':mycustumview3', ':myrecycler', ':myrecycler2', ':mycustumview0901', ':mycustumtext', ':custumtext', ':propertyanimation', ':mypropertyanimation', ':weekedproject', ':mycustumcirclearrowview', ':wangmiaomiaocheckbox0905', ':mymvp', ':autoloading', ':wangmiamiaorecycler0907', ':wangmiaomiao0908'

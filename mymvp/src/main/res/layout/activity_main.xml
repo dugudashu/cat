@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_alignParentTop="true"></FrameLayout>
+    <!--<Button-->
+    <!--android:id="@+id/register"-->
+    <!--android:onClick="btn_register"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="点击注册"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--/>-->
+    <!--<Button-->
+    <!--android:layout_marginTop="11dp"-->
+    <!--android:onClick="btn_login"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="点击登陆"-->
+    <!--android:layout_below="@+id/register"-->
+    <!--android:layout_alignStart="@+id/register" />-->
+
+    <RadioGroup
+        android:id="@+id/rd_group"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <RadioButton
+            android:id="@+id/shouye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rabtn_a_selector"
+            android:button="@null"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/fenlei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rabtn_b_selector"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/faxian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rabtn_c_selector"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/gouwuche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rabtn_d_selector"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/wode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rabtn_e_selector"
+            android:button="@null" />
+    </RadioGroup>
+</RelativeLayout>

@@ -60,27 +60,28 @@ public class MainActivity extends AppCompatActivity {
 //
 //            }
 //        });
+        //这是全选按钮的监听
         button_all.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                //调用全选的方法
                 adapter.selectAll();
 
 
             }
         });
-
+        //这是反选的监听
         button_revert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+        //调用反选的方法
                 adapter.revertSelected();
 
 
             }
         });
 
-
+        //点击item就Toast
         adapter.setOnItemLongClickListener(new Myadapter.OnItemLongClickListener() {
             @Override
             public void onItemLongClick(View v, int position) {
