@@ -180,12 +180,12 @@
             android:gravity="center"
             android:text="0" />
 
-        <TextView
+        <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tv1"
             android:layout_weight="1"
-            android:background="@drawable/qianbao"
+            android:src="@drawable/qianbao"
             android:gravity="center" />
 
     </LinearLayout>

@@ -10,12 +10,15 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 import com.nostra13.universalimageloader.utils.StorageUtils;
+import com.tencent.bugly.crashreport.CrashReport;
 import com.umeng.socialize.Config;
 import com.umeng.socialize.PlatformConfig;
 import com.umeng.socialize.UMShareAPI;
 import com.umeng.socialize.utils.Log;
 
 import java.io.File;
+
+import okhttp3.OkHttpClient;
 
 import static com.umeng.socialize.utils.DeviceConfig.context;
 
@@ -26,6 +29,7 @@ import static com.umeng.socialize.utils.DeviceConfig.context;
 public class MyAppcation extends Application {
 
     private Context appContext;
+    private  static  OkHttpClient okHttpClient;
 
     {
         PlatformConfig.setQQZone("100424468", "c7394704798a158208a74ab60104f0ba");
@@ -39,8 +43,15 @@ public class MyAppcation extends Application {
         initImageLoader(getApplicationContext());
         UMShareAPI.get(this);
         Config.DEBUG = true;
+        CrashReport.initCrashReport(getApplicationContext(), "181dc451-4563-4025-af4a-8fb52f2e3edf", false);
+        okHttpClient = new OkHttpClient();
 
 
+
+
+    }
+    public static OkHttpClient getAppContext() {
+        return okHttpClient;
     }
 
     private void initImageLoader(Context applicationContext) {

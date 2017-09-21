@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#F8F8F8"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#DDDDDD" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bk2"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#DDDDDD" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#ff0000"
+            android:layout_margin="10dp"
+            android:id="@+id/tv_recy1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="xxx"
+
+            />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#DDDDDD" />
+
+
+        <TextView
+            android:textColor="#ff0000"
+            android:layout_margin="10dp"
+            android:id="@+id/tv_recy2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="xxx"
+
+            />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#DDDDDD" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="#F8F8F8"
+            android:layout_margin="10dp"
+            android:id="@+id/img_recy1"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher" />
+
+        <View
+
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#DDDDDD" />
+
+        <ImageView
+            android:background="#F8F8F8"
+            android:layout_margin="10dp"
+            android:id="@+id/img_recy2"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#DDDDDD" />
+
+        <ImageView
+            android:background="#F8F8F8"
+            android:layout_margin="10dp"
+            android:id="@+id/img_recy3"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#DDDDDD" />
+
+        <ImageView
+            android:id="@+id/img_recy4"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#F8F8F8"
+            android:src="@mipmap/ic_launcher" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#DDDDDD" />
+
+</LinearLayout>

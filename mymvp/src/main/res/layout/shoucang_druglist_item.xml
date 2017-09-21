@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:id="@+id/caidan_line"
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_choice_person_shoucang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="4dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:scaleX="0.7"
+                android:scaleY="0.7"/>
+            <!--style="@style/CustomCheckboxTheme"/>-->
+            <RelativeLayout
+                android:id="@+id/caidan_relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="5dp">
+
+                <RelativeLayout
+                    android:id="@+id/image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/menu_image1_item"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/pingguoa" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/image"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/drugName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/menu_image1_item"
+                        android:layout_centerHorizontal="true"
+                        android:text="dnj"
+                        android:textColor="#191919"
+                        android:textSize="17dp" />
+                    <TextView
+                        android:id="@+id/drugmoney"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/menu_image1_item"
+                        android:layout_centerHorizontal="true"
+                        android:text="dnj"
+                        android:textColor="#191919"
+                        android:textSize="17dp" />
+
+                    <TextView
+
+                        android:id="@+id/drugCompany"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/drugName"
+                        android:layout_centerHorizontal="true"
+                        android:text="这个电脑很低调"
+                        android:textColor="#757575"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -72,7 +72,7 @@ public class TheTimer extends Activity {
     public void killsanpang() {
         timer = new Timer();
         TimerTask timerTask = new TimerTask() {
-            int i = 3;
+            int i = 4;
             @Override
             public void run() {
 

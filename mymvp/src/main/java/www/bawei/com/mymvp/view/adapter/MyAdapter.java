@@ -2,6 +2,7 @@ package www.bawei.com.mymvp.view.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import www.bawei.com.mymvp.R;
+import www.bawei.com.mymvp.model.bean.Fenlei;
 import www.bawei.com.mymvp.model.bean.PersionInfo;
 
 /**
@@ -20,43 +22,54 @@ import www.bawei.com.mymvp.model.bean.PersionInfo;
 public class MyAdapter extends BaseAdapter {
 
     private Context context;
-    private List<PersionInfo> listinfos;
+    private List<Fenlei.DatasBean.ClassListBean> list;
+    private ViewHolder viewholder;
 
-    public MyAdapter(Context context, List<PersionInfo> listinfos){
-        this.context =context;
-        this.listinfos = listinfos;
+    public MyAdapter(Context context, List<Fenlei.DatasBean.ClassListBean> lista) {
+        this.context = context;
+        this.list = lista;
     }
 
     @Override
     public int getCount() {
-        // TODO Auto-generated method stub
-        return listinfos.size();
+        return list.size();
     }
 
     @Override
     public Object getItem(int position) {
-        // TODO Auto-generated method stub
-        return listinfos.get(position);
+        return list.get(position);
     }
 
     @Override
     public long getItemId(int position) {
-        // TODO Auto-generated method stub
         return position;
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        // TODO Auto-generated method stub
-        convertView = LayoutInflater.from(context).inflate(R.layout.list_item, null);
-        TextView tv = (TextView) convertView.findViewById(R.id.tv);
-        PersionInfo persionInfo = listinfos.get(position);
-        tv.setText(persionInfo.getNameString());
-        if (persionInfo.isChick()) {
-            convertView.setBackgroundResource(R.mipmap.ic_launcher);
+        if (convertView == null) {
+            convertView = convertView.inflate(context, R.layout.activity_fenlei_item, null);
+            viewholder = new ViewHolder();
+            viewholder.textview = (TextView) convertView.findViewById(R.id.tv_fenlei_vh);
+            convertView.setTag(viewholder);
         } else {
-            convertView.setBackgroundColor(Color.parseColor("#f4f4f4"));
+            viewholder = (ViewHolder) convertView.getTag();
         }
+
+//       String gc_id = list.get(position).getGc_id();
+//        Bundle bundle = new Bundle();
+//        bundle.putString("id",gc_id);
+//        f1.setArguments(bundle);
+
+
+
+
+
+        viewholder.textview.setText(list.get(position).getGc_name());
         return convertView;
+    }
+
+    class ViewHolder {
+        TextView textview;
     }
 }

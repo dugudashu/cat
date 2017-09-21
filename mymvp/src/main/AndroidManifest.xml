@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="www.bawei.com.mymvp">
 
+    <uses-permission android:name="android.permission.READ_LOGS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -33,6 +34,7 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".view.activity.Loginthree" />
+
 
 
 

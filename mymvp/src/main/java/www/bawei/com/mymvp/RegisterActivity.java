@@ -39,9 +39,6 @@ public class RegisterActivity extends FragmentActivity   {
     private int mIndex;
     private FrameLayout content;
     private Fragment[] mFragments;
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,7 +48,6 @@ public class RegisterActivity extends FragmentActivity   {
         initView();
         initFragment();
     }
-
     private void initView() {
         rd_group = (RadioGroup) findViewById(R.id.rd_group);
         shouye = (RadioButton) findViewById(R.id.shouye);
@@ -62,9 +58,7 @@ public class RegisterActivity extends FragmentActivity   {
         rd_group.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
-
                 for (int i = 0; i <group.getChildCount() ; i++) {
-
                     RadioButton rb = (RadioButton)group.getChildAt(i);
                     if (rb.isChecked()){
                         setIndexSelected(i);
@@ -86,17 +80,12 @@ public class RegisterActivity extends FragmentActivity   {
         ft.add(R.id.content,fragmentone).commit();
         setIndexSelected(0);
     }
-
-
     private void setIndexSelected(int i){
-
         if(mIndex==i){
             return;
         }
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction ft= fragmentManager.beginTransaction();
-
-
         //隐藏
         ft.hide(mFragments[mIndex]);
         //判断是否添加
@@ -105,7 +94,6 @@ public class RegisterActivity extends FragmentActivity   {
         }else {
             ft.show(mFragments[i]);
         }
-
         ft.commit();
         //再次赋值
         mIndex=i;

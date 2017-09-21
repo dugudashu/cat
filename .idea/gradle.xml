@@ -8,24 +8,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/OkhttpUtils" />
+            <option value="$PROJECT_DIR$/QRcCodeScanLibrary" />
+            <option value="$PROJECT_DIR$/ShoppingCart" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/autoloading" />
-            <option value="$PROJECT_DIR$/custumtext" />
-            <option value="$PROJECT_DIR$/mycustumcirclearrowview" />
-            <option value="$PROJECT_DIR$/mycustumtext" />
-            <option value="$PROJECT_DIR$/mycustumview" />
-            <option value="$PROJECT_DIR$/mycustumview0901" />
-            <option value="$PROJECT_DIR$/mycustumview2" />
-            <option value="$PROJECT_DIR$/mycustumview3" />
             <option value="$PROJECT_DIR$/mymvp" />
-            <option value="$PROJECT_DIR$/mypropertyanimation" />
-            <option value="$PROJECT_DIR$/myrecycler" />
-            <option value="$PROJECT_DIR$/myrecycler2" />
-            <option value="$PROJECT_DIR$/propertyanimation" />
-            <option value="$PROJECT_DIR$/wangmiamiaorecycler0907" />
-            <option value="$PROJECT_DIR$/wangmiaomiao0908" />
-            <option value="$PROJECT_DIR$/wangmiaomiaocheckbox0905" />
-            <option value="$PROJECT_DIR$/weekedproject" />
+            <option value="$PROJECT_DIR$/myokhttp" />
+            <option value="$PROJECT_DIR$/sampleokhttp" />
+            <option value="$PROJECT_DIR$/swiperefreshlayoutlibrary" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

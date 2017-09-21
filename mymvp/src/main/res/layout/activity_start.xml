@@ -2,27 +2,23 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@drawable/azz"
     >
     <TextView
         android:id="@+id/tv_timer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="50dp"
-        android:text="倒计时:"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="144dp" />
-
+        android:layout_alignTop="@+id/btn_bypass"
+        android:layout_toStartOf="@+id/btn_bypass"
+        android:gravity="right"
+        android:textSize="50dp" />
     <Button
         android:id="@+id/btn_bypass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="跳过"
-        android:layout_marginEnd="55dp"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="45dp" />
-
-
+        android:layout_marginBottom="41dp"
+        android:background="#cc0000"
+        android:text="跳过" />
 </RelativeLayout>

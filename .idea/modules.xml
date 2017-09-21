@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/OkhttpUtils/OkhttpUtils.iml" filepath="$PROJECT_DIR$/OkhttpUtils/OkhttpUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QRcCodeScanLibrary/QRcCodeScanLibrary.iml" filepath="$PROJECT_DIR$/QRcCodeScanLibrary/QRcCodeScanLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShoppingCart/ShoppingCart.iml" filepath="$PROJECT_DIR$/ShoppingCart/ShoppingCart.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thenextmonth.iml" filepath="$PROJECT_DIR$/Thenextmonth.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/autoloading/autoloading.iml" filepath="$PROJECT_DIR$/autoloading/autoloading.iml" />
-      <module fileurl="file://$PROJECT_DIR$/custumtext/custumtext.iml" filepath="$PROJECT_DIR$/custumtext/custumtext.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mycustumcirclearrowview/mycustumcirclearrowview.iml" filepath="$PROJECT_DIR$/mycustumcirclearrowview/mycustumcirclearrowview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mycustumtext/mycustumtext.iml" filepath="$PROJECT_DIR$/mycustumtext/mycustumtext.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mycustumview/mycustumview.iml" filepath="$PROJECT_DIR$/mycustumview/mycustumview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mycustumview0901/mycustumview0901.iml" filepath="$PROJECT_DIR$/mycustumview0901/mycustumview0901.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mycustumview2/mycustumview2.iml" filepath="$PROJECT_DIR$/mycustumview2/mycustumview2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mycustumview3/mycustumview3.iml" filepath="$PROJECT_DIR$/mycustumview3/mycustumview3.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymvp/mymvp.iml" filepath="$PROJECT_DIR$/mymvp/mymvp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mypropertyanimation/mypropertyanimation.iml" filepath="$PROJECT_DIR$/mypropertyanimation/mypropertyanimation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myrecycler/myrecycler.iml" filepath="$PROJECT_DIR$/myrecycler/myrecycler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myrecycler2/myrecycler2.iml" filepath="$PROJECT_DIR$/myrecycler2/myrecycler2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/propertyanimation/propertyanimation.iml" filepath="$PROJECT_DIR$/propertyanimation/propertyanimation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wangmiamiaorecycler0907/wangmiamiaorecycler0907.iml" filepath="$PROJECT_DIR$/wangmiamiaorecycler0907/wangmiamiaorecycler0907.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wangmiaomiao0908/wangmiaomiao0908.iml" filepath="$PROJECT_DIR$/wangmiaomiao0908/wangmiaomiao0908.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wangmiaomiaocheckbox0905/wangmiaomiaocheckbox0905.iml" filepath="$PROJECT_DIR$/wangmiaomiaocheckbox0905/wangmiaomiaocheckbox0905.iml" />
-      <module fileurl="file://$PROJECT_DIR$/weekedproject/weekedproject.iml" filepath="$PROJECT_DIR$/weekedproject/weekedproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myokhttp/myokhttp.iml" filepath="$PROJECT_DIR$/myokhttp/myokhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sampleokhttp/sampleokhttp.iml" filepath="$PROJECT_DIR$/sampleokhttp/sampleokhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swiperefreshlayoutlibrary/swiperefreshlayoutlibrary.iml" filepath="$PROJECT_DIR$/swiperefreshlayoutlibrary/swiperefreshlayoutlibrary.iml" />
     </modules>
   </component>
 </project>
